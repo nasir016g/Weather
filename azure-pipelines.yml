@@ -43,5 +43,5 @@ steps:
     deployToSlotOrASE: true
     ResourceGroupName: 'WeatherRG'
     SlotName: 'production'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    packageForLinux: '$(build.artifactStagingDirectory)\WebApp.zip'
  
